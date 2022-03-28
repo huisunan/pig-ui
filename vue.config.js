@@ -30,6 +30,7 @@ module.exports = {
       '/': {
         target: url,
         ws: true,
+        changeOrigin: true,
         pathRewrite: {
           '^/': '/'
         }
